@@ -1,0 +1,44 @@
+[
+    {
+        "crop_name": "Rice",
+        "soil_type": "Clay",
+        "disease": "No disease reported",
+        "date": "2020-01-01"
+    },
+    {
+        "crop_name": "Wheat",
+        "soil_type": "Heavy Clay",
+        "disease": "No disease reported",
+        "date": "2018-05-22"
+    },
+    {
+        "crop_name": "Cotton",
+        "soil_type": "Black Soil",
+        "disease": "No disease reported",
+        "date": "2021-09-01"
+    },
+    {
+        "crop_name": "Cotton",
+        "soil_type": "Loamy Soil",
+        "disease": "Gummosis",
+        "date": "2020-02-9"
+    },
+    {
+        "crop_name": "coconut",
+        "soil_type": "Sandy Soil",
+        "disease": "Bud rot and nutfall",
+        "date": "2015-01-01"
+    },
+    {
+        "crop_name": "Jute",
+        "soil_type": "Loamy Soil",
+        "disease": "No disease reported",
+        "date": "2019-11-04"
+    },
+    {
+        "crop_name": "Black Gram",
+        "soil_type": "Alluvial Soil",
+        "disease": "No disease reported",
+        "date": "2021-01-22"
+    }
+]

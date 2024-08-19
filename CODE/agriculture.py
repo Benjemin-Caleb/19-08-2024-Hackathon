@@ -1,20 +1,24 @@
 import json
 import os
-from datetime import datetime
 
 CROP_DATA_FILE = 'crop_data.json'
+CODE_DIR = os.path.join(os.path.dirname(__file__), 'DATA')
+file_path = os.path.join(CODE_DIR, CROP_DATA_FILE)
 
 def initialize_file():
-    if not os.path.exists(CROP_DATA_FILE):
-        with open(CROP_DATA_FILE, 'w') as file:
+    os.makedirs(CODE_DIR, exist_ok=True)
+    if not os.path.isfile(file_path):
+        with open(file_path, 'w') as file:
             json.dump([], file)
 
 def load_data():
-    with open(CROP_DATA_FILE, 'r') as file:
+    if not os.path.isfile(file_path):
+        return []
+    with open(file_path, 'r') as file:
         return json.load(file)
 
 def save_data(data):
-    with open(CROP_DATA_FILE, 'w') as file:
+    with open(file_path, 'w') as file:
         json.dump(data, file, indent=4)
 
 def add_crop_data():
