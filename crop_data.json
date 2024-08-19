@@ -1,0 +1,20 @@
+[
+    {
+        "crop_name": "Rice",
+        "soil_type": "Clay",
+        "disease": "No disease reported",
+        "date": "2020-01-01"
+    },
+    {
+        "crop_name": "Wheat",
+        "soil_type": "Heavy Clay",
+        "disease": "No disease reported",
+        "date": "2018-05-22"
+    },
+    {
+        "crop_name": "Cotton",
+        "soil_type": "Black Soil",
+        "disease": "No disease reported",
+        "date": "2021-09-01"
+    }
+]
